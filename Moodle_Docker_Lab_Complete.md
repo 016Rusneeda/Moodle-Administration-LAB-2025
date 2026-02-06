@@ -329,9 +329,8 @@ docker pull mariadb:latest
 ```
 
 **บันทึกผลการทดลอง 1:**
-```bash
- รูปผลการโหลด Images ที่สมบูรณ์ 
-```
+<img width="903" height="375" alt="image" src="https://github.com/user-attachments/assets/39a1fd7d-1ab3-40db-b333-e92cef760e1e" />
+
 #### 2.2 รัน Docker Compose
 
 ```bash
@@ -352,9 +351,8 @@ Creating moodle_app ... done
 ```
 
 **บันทึกผลการทดลอง 2:**
-```bash
- รูปผลการรัน docker-compose ที่สมบูรณ์ 
-```
+<img width="951" height="267" alt="image" src="https://github.com/user-attachments/assets/a9befb3e-5a46-4c50-9ad1-cff845f240d9" />
+
 
 #### 2.3 ตรวจสอบสถานะ Containers
 
@@ -374,9 +372,8 @@ moodle_db     docker-entrypoint.sh mariadbd    Up      3306/tcp
 - **Ports** = Port mapping ที่ใช้งาน
   
 **บันทึกผลการทดลอง 3:**
-```bash
- รูปผลการรัน docker-compose ps
-```
+<img width="1233" height="176" alt="image" src="https://github.com/user-attachments/assets/92da2374-9164-4097-8ba6-808b57e1be51" />
+
 
 
 #### 2.4 ตรวจสอบ Logs
@@ -403,9 +400,8 @@ docker start moodle_app
 
 ```
 **บันทึกผลการทดลอง 4:**
-```bash
- รูปผลการรัน docker-compose logs 
-```
+<img width="1199" height="784" alt="image" src="https://github.com/user-attachments/assets/4fd7137d-1c79-43ef-9320-5613e6730c65" />
+
 
 #### 2.5 ตรวจสอบ Network และ Volumes
 
@@ -420,9 +416,8 @@ docker volume inspect moodle-docker_moodledata
 ```
 
 **บันทึกผลการทดลอง 5:**
-```bash
- รูปผลการรัน ตรวจสอบ volume
-```
+<img width="1046" height="418" alt="image" src="https://github.com/user-attachments/assets/d3ef1b29-e97b-4a87-b328-2241149d1ce2" />
+
 
 ---
 
@@ -471,9 +466,8 @@ docker volume inspect moodle-docker_moodledata
 หลังจากบันทึกแล้ว ระบบจะแสดงหน้า **Dashboard** ของระบบ
 
 **บันทึกผลการทดลอง 6:**
-```bash
- รูปหน้า Dashboard 
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6ef6d16c-b258-4c30-9fd5-27e0fdf318f4" />
+
 
 ---
 
@@ -614,9 +608,8 @@ h1 {
 - Favicon: 32x32 px (ICO/PNG)
 
 **บันทึกผลการทดลอง 6-1:**
-```bash
- รูป ผลการปรับแต่ง Theme
-```
+<img width="1916" height="872" alt="image" src="https://github.com/user-attachments/assets/ec9fe775-182d-4e7c-867c-f1155e50b70c" />
+
 ---
 
 ### 6.2 การจัดการ Course Categories และ Courses
